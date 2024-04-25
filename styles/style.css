@@ -1,0 +1,57 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+   
+   
+   }
+   
+   .header{
+   display: flex;
+       align-items:center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   }
+   
+   .icon{
+       padding-left: 54px;
+       padding-right: 266px;
+       cursor: pointer;
+      
+   }
+   
+   
+   
+   .menu{
+      display: flex;
+       align-items: center;
+       gap: 75px;
+       padding-right: 160.33px;
+       cursor: pointer;
+       
+   }
+   
+   .menu h3:hover{
+       transition-duration: 3s;
+       background-color:#101820FF;
+       color: #FEE715FF;
+       border-radius: 15px;
+   }
+   
+   .icons{
+       display: flex;
+       align-items:center;
+       gap: 47.33px;
+       padding-right: 100px;
+       
+       cursor: pointer;
+   }
+   
+   .icons img:hover{
+       transition-duration: 2s;
+       background-color: #E94B3CFF;
+       color:#101820FF;
+       border-radius:50px
+   }
