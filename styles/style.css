@@ -156,11 +156,50 @@ cursor: pointer;
     width: 215px;
     height: 64px;
     border:2px;
-    border-radius:25px
+    border-radius:12px
 }
 
 .button a button:hover{
     background-color:#E94B3CFF ;
     color: blue;
-    transition-duration: 2s;
+    transition-duration: 3s;
+    border-radius:75px
+}
+
+.sku{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.uks{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dar{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 53px;
+}
+
+.matn{
+    width: 1026px;
+height: 174px;
+top:37px;
+padding-left: 207px;
+
+
+
+}
+
+.images img{
+    background-color:#f9f1e7;
+    gap:50pxpx;
+    justify-content: center;
 }
