@@ -198,8 +198,13 @@ padding-left: 207px;
 
 }
 
-.images img{
-    background-color:#f9f1e7;
-    gap:50pxpx;
+.images{
+    display: flex;
+    gap:50px;
     justify-content: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.imgg{
+    background-color:#F9F1E7;
 }
